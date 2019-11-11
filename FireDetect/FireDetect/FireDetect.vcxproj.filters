@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FireDetectionRules.cpp">
+      <Filter>Source\FireDetection\FireDetectionRules</Filter>
+    </ClCompile>
+    <ClCompile Include="FireDetectionMask.cpp">
+      <Filter>Source\FireDetection\FireDetectionRules\FireDetectionMask</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageChannel.cpp">
+      <Filter>Source\ImageChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionDetectionMask.cpp">
+      <Filter>Source\MotionDetectionMask</Filter>
+    </ClCompile>
+    <ClCompile Include="FireDetect.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source\Header</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FireDetectionRules.h">
+      <Filter>Source\FireDetection\FireDetectionRules</Filter>
+    </ClInclude>
+    <ClInclude Include="FireDetectionMask.h">
+      <Filter>Source\FireDetection\FireDetectionRules\FireDetectionMask</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageChannel.h">
+      <Filter>Source\ImageChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionDetectionMask.h">
+      <Filter>Source\MotionDetectionMask</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{beba5d69-1d0d-49ec-af89-a380acef885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FireDetection">
+      <UniqueIdentifier>{72742c94-4425-42f7-8d09-45857ee19390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FireDetection\FireDetectionRules">
+      <UniqueIdentifier>{67d2f920-8a42-4176-bd60-2a8128f91df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FireDetection\FireDetectionRules\FireDetectionMask">
+      <UniqueIdentifier>{f274f2be-d383-4c3b-a7f7-ff1d50f3f353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ImageChannel">
+      <UniqueIdentifier>{95060a5e-5864-4a87-94e2-6b03737fdf91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MotionDetectionMask">
+      <UniqueIdentifier>{c9a9eb25-93a2-4887-b069-5271b687ea7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{f5e96747-67ed-4624-941e-78757c7a127d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Header">
+      <UniqueIdentifier>{b98c28e4-19cf-4288-86da-b9e82fd30046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Source\Header</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
