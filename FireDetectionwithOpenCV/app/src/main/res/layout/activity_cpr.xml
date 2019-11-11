@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="심폐소생술 교육 영상입니다." />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cprimage1"
+                android:src="@drawable/cprtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/cprimage2"
+                android:layout_below="@+id/cprimage1"
+                android:src="@drawable/cprtext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/cprtext1"
+                android:layout_below="@+id/cprimage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="동영상출처: https://www.youtube.com/watch?v=M0oK-T-wFNA" />
+
+            <TextView
+                android:layout_below="@+id/cprtext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="출처: http://www.kacpr.org/cpr/index.html?cat=4" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:adjustViewBounds="true"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:onClick="CCTVbutton"
+        android:padding="0sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cctv"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0sp"
+        android:scaleType="fitXY"
+        android:onClick="Firebutton"
+        android:src="@drawable/firedelete"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignStart="@+id/imageButton1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CCTV 현황"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소화기 사용법"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:padding="0sp"
+        android:scaleType="fitXY"
+        android:onClick="Emergencybutton"
+        android:src="@drawable/emergency"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화재시 조치방법"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0sp"
+        android:scaleType="fitXY"
+        android:onClick="CPRbutton"
+        android:src="@drawable/cpr"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:text="CPR 교육" />
+</RelativeLayout>
